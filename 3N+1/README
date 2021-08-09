@@ -1,6 +1,8 @@
 Thsi is a very simple Collatz Conjecture calculator given an integer it will calculate
 the number of steps before the given int will reach the 4-2-1 loop. 
 
-to compile simply run:
-
+To compile:
 cc 3nPlus1Calc.c -o calc 
+
+To Run:
+./calc
