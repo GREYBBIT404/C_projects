@@ -3,13 +3,11 @@
 
 main()
 {
-	int fNum, dNum, step;
+	int fNum, step;
 
 	printf("Enter int: ");
 	scanf("%d", &fNum);
 	step = 0;
-
-	printf("Starting Number: %d\n", fNum);
 
 	while(fNum!=1){
 
@@ -24,7 +22,7 @@ main()
 			step++;
 		}
 		else{
-			printf("ERROR");
+			printf("TEST ERROR");
 		}
 	}
 	printf("%d\n", fNum);
